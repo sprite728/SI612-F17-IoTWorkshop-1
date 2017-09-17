@@ -1,0 +1,24 @@
+{
+  "name": "electron-template",
+  "version": "1.0.0",
+  "description": "A minimal Electron application for SI612",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild --version=1.7.2"
+  },
+  "keywords": [
+    "Electron",
+    "bootcamp"
+  ],
+  "author": "Chuan-Che Huang",
+  "dependencies": {
+    "@types/serialport": "^4.0.9",
+    "electron": "^1.7.2",
+    "p5": "^0.5.14",
+    "serialport": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.6.0"
+  }
+}
